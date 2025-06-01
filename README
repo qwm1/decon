@@ -1,0 +1,21 @@
+Abstract
+Recently, convolutional neural networks (CNNs) have emerged as a dominant
+approach in sensor-based human activity recognition (HAR) due to the pow-
+erful feature representation capabilities for multimodal time series data, which
+has become a research hotspot in the field of mobile computing. The atten-
+tion mechanism is well-known for its potential to enhance activity recognition
+performance by emphasizing critical temporal sequences and noteworthy sensor
+modalities. However, existing research primarily focuses on developing deeper or
+more intricate convolutional attention networks, which inevitably incurs a signif-
+icant increase in computational complexity. To address these concerns above, we
+propose a lightweight Multi-scale Segmentation Attention called MSA method
+tailored for sensor-based HAR scenarios. MSA leverages a segmentation struc-
+ture to extract a channel vector that encapsulates multi-scale information and
+employs one-dimensional convolution to facilitate cross-channel interaction while
+substantially reducing model complexity. We evaluate the proposed model on sev-
+eral publicly available HAR datasets, including WISDM, UCI-HAR, PAMAP2,
+and UniMib-SHAR. The experimental results demonstrate that our method sig-
+nificantly reduces the number of parameters compared to baseline models, while
+outperforming recently published results under identical configurations. Further-
+more, extensive ablation studies are conducted to explore the impact of different
+group sizes on classification performance. 
